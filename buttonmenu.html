@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link  href="mobilebtn.js"/>
+<link rel="stylesheet" href="btnm.css"/>
+<script language="JavaScript" type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<script>
+//le o documento e cria uma função
+$(document).ready(function(){
+	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+		$(this).toggleClass('open');
+		$("#callmenu").toggleClass("showmenu");
+	});
+});
+
+</script>
+
+</head>
+<body>
+<div id="nav-icon1">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<div id="nav-icon2">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+	
+<div id="nav-icon3">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+	
+<div id="nav-icon4">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<body>
+</html>
